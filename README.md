@@ -16,7 +16,7 @@ After any skill-driven agent run, point this at the transcript and the skill fil
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/skill-autoresearch ~/.claude/skills/skill-autoresearch
+git clone https://github.com/grandamenium/skill-autoresearch ~/.claude/skills/skill-autoresearch
 ```
 
 ## Usage
