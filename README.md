@@ -1,4 +1,4 @@
-# skill-autoresearch
+# skill-optimizer
 
 A Claude Code skill that audits how well an agent followed a skill by analyzing the session JSONL transcript.
 
@@ -16,7 +16,7 @@ After any skill-driven agent run, point this at the transcript and the skill fil
 ## Installation
 
 ```bash
-git clone https://github.com/grandamenium/skill-autoresearch ~/.claude/skills/skill-autoresearch
+git clone https://github.com/grandamenium/skill-optimizer ~/.claude/skills/skill-optimizer
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ git clone https://github.com/grandamenium/skill-autoresearch ~/.claude/skills/sk
 In Claude Code:
 
 ```
-Run skill-autoresearch on ~/.claude/projects/<project>/<session>.jsonl against ~/.claude/skills/<skill-name>/SKILL.md
+Run skill-optimizer on ~/.claude/projects/<project>/<session>.jsonl against ~/.claude/skills/<skill-name>/SKILL.md
 ```
 
 ## Output

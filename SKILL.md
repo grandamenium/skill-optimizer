@@ -1,11 +1,11 @@
 ---
-name: skill-autoresearch
+name: skill-optimizer
 description: Audits how well an agent followed a skill by reading an agent JSONL transcript and evaluating it against the skill SKILL.md. Produces a structured improvement report with tracked diffs over time. Use after any skill-driven agent run to identify what worked, what failed, and exactly how to improve the skill for the next run.
 triggers: ["audit this skill", "skill autoresearch", "evaluate skill execution", "review skill run", "skill improvement", "did the skill work", "analyze transcript", "skill audit", "improve this skill", "check skill execution", "skill-autoresearch"]
 effort: medium
 ---
 
-# skill-autoresearch
+# skill-optimizer
 
 Reads an agent's JSONL transcript and evaluates how well it followed a target SKILL.md. Writes a structured report with ratings, findings, and an exact diff to improve the skill.
 
@@ -51,7 +51,7 @@ You need two things:
 ## Running the Audit
 
 ```
-Run skill-autoresearch on <transcript-path> against <skill-path>
+Run skill-optimizer on <transcript-path> against <skill-path>
 ```
 
 ---
